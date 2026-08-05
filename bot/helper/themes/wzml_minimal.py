@@ -220,7 +220,7 @@ class WZMLStyle:
 
     # === Status Messages ===
     STATUS_NAME = "<b><i>{Name}</i></b>"
-    BAR = "\n┏━━❪ Animeworld 💜 ❫━━━✘\n┃ <blockquote>{Bar}</blockquote>"
+    BAR = "\n┏━━❪ DxD-ML 👾 ❫━━━✘\n┃ <blockquote>{Bar}</blockquote>"
     PROCESSED = "\n┠ <b><i>📈 Processed:</i></b> {Processed}"
     STATUS = '\n┠ <b><i>📊 Status:</i></b> <a href="{Url}">{Status}</a>'
     ETA = "| <b><i> ⏳ ETA:</i></b> {Eta}"
