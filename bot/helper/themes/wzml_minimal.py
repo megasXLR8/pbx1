@@ -8,9 +8,9 @@ class WZMLStyle:
 
     # === Bot Information ===
     ST_BN1_NAME = "Owner 👤"
-    ST_BN1_URL = "https://t.me/V_Sbotmaker"
+    ST_BN1_URL = "https://t.me/dxd_ml_updates"
     ST_BN2_NAME = "Updates 📢"
-    ST_BN2_URL = "https://t.me/Animeworld_zone"
+    ST_BN2_URL = "https://t.me/dxd_ml_updates"
 
     # === Start Messages ===
     ST_MSG = """
