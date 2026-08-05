@@ -36,7 +36,7 @@ python-dotenv
 pyshorteners
 python-magic
 pymongo
-pyrogram>=2.0.106
+pyrofork
 tgcrypto
 
 quoters
