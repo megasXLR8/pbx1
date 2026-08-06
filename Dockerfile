@@ -1,10 +1,9 @@
-FROM mysterysd/wzmlx:v3
+FROM mysterysd/wzmlx:heroku
 
 WORKDIR /usr/src/app
-
-COPY requirements.txt .
-RUN uv pip install --python /wzvenv/bin/python --no-cache-dir -r requirements.txt
+RUN chmod 777 /usr/src/app
 
 COPY . .
+RUN pip3 install --no-cache-dir -r requirements.txt
 
-ENTRYPOINT ["bash", "start.sh"]
+CMD ["bash", "start.sh"]
