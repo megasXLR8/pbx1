@@ -6,7 +6,7 @@
 <p align="center">Fastest way to deploy your Telegram Leech Bot using Google Colab & Heroku 🚀</p>
 
 <p align="center">
-  <a href="https://colab.research.google.com/drive/1EYzaJiUMNDbRoH6f5PoWUT_cfLMhuzOe">
+  <a href="https://colab.research.google.com/github/megasXLR8/pbx1/blob/main/PBX1_BOTS_HK_DEPLOYER.ipynb">
     <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku"/>
   </a>
   <br/>
