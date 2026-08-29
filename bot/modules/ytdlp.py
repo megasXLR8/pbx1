@@ -473,7 +473,7 @@ async def _ytdl(client, message, isLeech=False, sameDir=None, bulk=[]):
     'cookiefile': 'cookies.txt',
     'extractor_args': {
         'youtube': {
-            'player_client': ['default', 'web_embedded']
+            'player_client': ['default', '-tv_downgraded', 'web_embedded']
         }
     }
     }
