@@ -468,7 +468,15 @@ async def _ytdl(client, message, isLeech=False, sameDir=None, bulk=[]):
     if 'mdisk.me' in link:
         name, link = await _mdisk(link, name)
 
-    options = {'usenetrc': True, 'cookiefile': 'cookies.txt'}
+    options = {
+    'usenetrc': True,
+    'cookiefile': 'cookies.txt',
+    'extractor_args': {
+        'youtube': {
+            'player_client': ['default', 'web_embedded']
+        }
+    }
+    }
     if opt:
         yt_opt = opt.split('|')
         for ytopt in yt_opt:
