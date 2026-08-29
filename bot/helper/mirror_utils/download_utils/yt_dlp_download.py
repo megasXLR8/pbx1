@@ -59,11 +59,13 @@ class YoutubeDLHelper:
                      'logger': MyLogger(self),
                      'usenetrc': True,
                      'cookiefile': 'cookies.txt',
-                      extractor_args': {
-                         'youtube': {
-                             'player_client': ['default', 'web_embedded']
-                         }
-                     },
+                     
+                     'extractor_args': {
+    'youtube': {
+        'player_client': ['default', 'web_embedded']
+    }
+},
+                     
                      'allow_multiple_video_streams': True,
                      'allow_multiple_audio_streams': True,
                      'noprogress': True,
